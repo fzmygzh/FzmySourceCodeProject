@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/FzmySourceCodeProject.iml" filepath="$PROJECT_DIR$/.idea/FzmySourceCodeProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/FzmyTest/FzmyTest.iml" filepath="$PROJECT_DIR$/FzmyTest/FzmyTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/JVM/JVM.iml" filepath="$PROJECT_DIR$/JVM/JVM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SrpingSourceCode/SrpingSourceCode.iml" filepath="$PROJECT_DIR$/SrpingSourceCode/SrpingSourceCode.iml" />
     </modules>
   </component>
 </project>

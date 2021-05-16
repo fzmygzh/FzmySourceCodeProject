@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="SrpingSourceCode" />
         <module name="FzmyTest" />
         <module name="JVM" />
       </profile>
@@ -13,6 +14,7 @@
     <bytecodeTargetLevel>
       <module name="FzmyTest" target="1.5" />
       <module name="JVM" target="1.5" />
+      <module name="SrpingSourceCode" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
