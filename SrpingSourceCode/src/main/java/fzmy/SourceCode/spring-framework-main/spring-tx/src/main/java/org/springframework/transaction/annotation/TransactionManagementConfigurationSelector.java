@@ -47,7 +47,10 @@ public class TransactionManagementConfigurationSelector extends AdviceModeImport
 	protected String[] selectImports(AdviceMode adviceMode) {
 		switch (adviceMode) {
 			case PROXY:
+				// 向Spring中添加了AutoProxyRegistrar和ProxyTransactionManagementConfiguration对应的bean
+				//给容器中注册一个 InfrastructureAdvisorAutoProxyCreator 组件；利用后置处理器机制在对象创建以后，包装对象，返回一个代理对象（增强器），代理对象执行方法利用拦截器链进行调用
 				return new String[] {AutoProxyRegistrar.class.getName(),
+						//就是一个配置类，定义了事务增强器。
 						ProxyTransactionManagementConfiguration.class.getName()};
 			case ASPECTJ:
 				return new String[] {determineTransactionAspectClass()};
